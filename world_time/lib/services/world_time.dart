@@ -31,6 +31,7 @@ class WorldTime {
     } catch (e) {
       print("Error $e");
       time = "Could not get time";
+      day = true;
     }
   }
 }
